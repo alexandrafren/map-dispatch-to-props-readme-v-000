@@ -6,8 +6,8 @@ import { addItem } from  './actions/items';
 class App extends Component {
 
   handleOnClick = event => {
-  this.props.addItem()
-}
+    this.props.addItem()
+  }
 
   render() {
     return (
