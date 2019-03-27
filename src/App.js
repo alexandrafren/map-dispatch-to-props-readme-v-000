@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { addItem } from  './actions/items';
 
 class App extends Component {
-  
+
   render() {
     return (
       <div className="App">
